@@ -1,0 +1,33 @@
+/* Color Theme Swatches in Hex
+.Site-Mostra-Steam-1-hex { color: #2C3E50; }
+.Site-Mostra-Steam-2-hex { color: #7E8A97; }
+.Site-Mostra-Steam-3-hex { color: #C49A6C; }
+.Site-Mostra-Steam-4-hex { color: #EDE6D1; }
+.Site-Mostra-Steam-5-hex { color: #4A5D23; }
+
+ Color Theme Swatches in RGBA 
+.Site-Mostra-Steam-1-rgba { color: rgba(44, 62, 80, 1); }
+.Site-Mostra-Steam-2-rgba { color: rgba(126, 138, 151, 1); }
+.Site-Mostra-Steam-3-rgba { color: rgba(196, 154, 108, 1); }
+.Site-Mostra-Steam-4-rgba { color: rgba(237, 230, 209, 1); }
+.Site-Mostra-Steam-5-rgba { color: rgba(74, 93, 35, 1); }
+
+ Color Theme Swatches in HSLA 
+.Site-Mostra-Steam-1-hsla { color: hsla(210, 29, 24, 1); }
+.Site-Mostra-Steam-2-hsla { color: hsla(211, 10, 54, 1); }
+.Site-Mostra-Steam-3-hsla { color: hsla(31, 42, 59, 1); }
+.Site-Mostra-Steam-4-hsla { color: hsla(45, 43, 87, 1); }
+.Site-Mostra-Steam-5-hsla { color: hsla(79, 45, 25, 1); } */
+
+/* geral */
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* pagina inicial */
+.img_pre_button{
+    width: 80%;
+    height: auto;
+}
