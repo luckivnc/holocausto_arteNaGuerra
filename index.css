@@ -26,8 +26,38 @@ img{
 }
 
 
+
 /* pagina inicial */
 .img_pre_button{
     width: 80%;
     height: auto;
+}
+#index{
+    background-color: rgba(44, 62, 80, 1) ;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_banner{
+    width: 70%;
+    height: auto;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.conteudo button{
+    background-color: rgba(196, 154, 108, 1);
+    width: clamp(120px, 20vw, 250px); 
+    height: clamp(40px, 4vh, 70px);
+    border: none;
+    font-size: clamp(14px, 2vw, 20px);
+    color: rgba(237, 230, 209, 1) ; 
 }
