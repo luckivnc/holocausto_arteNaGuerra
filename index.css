@@ -34,15 +34,22 @@ img{
 }
 #index{
     background-color: rgba(44, 62, 80, 1) ;
+    margin:0%;
 }
 .conteudo{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-image: url(imgs/background_img.png);
+    background-size: 50% auto;   /* 2 imagens no eixo X = cada uma ocupa 50% */
+    background-position: top left; /* começa no topo/esquerda */
 }
 .img_banner{
-    width: 70%;
+    width: 100%;
     height: auto;
 }
 .banner{
@@ -51,7 +58,6 @@ img{
     align-items: center;
     align-items: center;
     margin-top: 2%;
-    margin-bottom: 2%;
 }
 .conteudo button{
     background-color: rgba(196, 154, 108, 1);
