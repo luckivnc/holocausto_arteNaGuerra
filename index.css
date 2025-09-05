@@ -24,7 +24,20 @@ img{
     width: 100%;
     height: auto;
 }
-
+.footer{
+    color: rgba(237, 230, 209, 1) ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+h4{
+    margin-bottom: 0.5%;
+    margin-top: 0%;
+    font-size: clamp(10px, 2vw, 18px);
+}
 
 
 /* pagina inicial */
@@ -65,5 +78,6 @@ img{
     height: clamp(40px, 4vh, 70px);
     border: none;
     font-size: clamp(14px, 2vw, 20px);
-    color: rgba(237, 230, 209, 1) ; 
+    color: rgba(237, 230, 209, 1);
+     
 }
