@@ -24,6 +24,47 @@ img{
     width: 100%;
     height: auto;
 }
+body{
+    background-color: rgba(44, 62, 80, 1) ;
+    margin:0%;
+}
+.header button{
+    background-color: transparent;
+    border:none;
+    color: rgba(237, 230, 209, 1);
+    font-size: clamp(14px, 2vw, 20px);
+}
+.header button:hover{
+    transform: scale(1.2);
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-image: url(imgs/background_img.png);
+    background-size: 50% auto;   /* 2 imagens no eixo X = cada uma ocupa 50% */
+    background-position: top left; /* começa no topo/esquerda */
+}
+.conteudo button:hover{
+    transform: scale(1.2);
+}
 .footer{
     color: rgba(237, 230, 209, 1) ; 
     display: flex;
@@ -38,46 +79,16 @@ h4{
     margin-top: 0%;
     font-size: clamp(10px, 2vw, 18px);
 }
-
-
 /* pagina inicial */
 .img_pre_button{
     width: 80%;
     height: auto;
 }
-#index{
-    background-color: rgba(44, 62, 80, 1) ;
-    margin:0%;
-}
-.conteudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    background-image: url(imgs/background_img.png);
-    background-size: 50% auto;   /* 2 imagens no eixo X = cada uma ocupa 50% */
-    background-position: top left; /* começa no topo/esquerda */
-}
-.img_banner{
-    width: 100%;
-    height: auto;
-}
-.banner{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-items: center;
-    margin-top: 2%;
-}
-.conteudo button{
+.btn_ot button{
     background-color: rgba(196, 154, 108, 1);
     width: clamp(120px, 20vw, 250px); 
     height: clamp(40px, 4vh, 70px);
     border: none;
     font-size: clamp(14px, 2vw, 20px);
     color: rgba(237, 230, 209, 1);
-     
 }
