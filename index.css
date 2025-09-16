@@ -40,16 +40,16 @@ body{
 .header{
     display: flex;
     justify-content: flex-end;
-    gap: 5%;
-    margin-top: 3%;
+    gap: 4%;
+    margin-top: 1%;
     margin-right: 5%;
 }
 .banner{
     display: flex;
     flex-direction: column;
+    align-items: center;    
     align-items: center;
-    align-items: center;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .conteudo{
     display: flex;
@@ -131,4 +131,40 @@ h4{
     padding-left: 1%;
     box-shadow: -1em 1em  rgba(196, 154, 108, 1);
 
+}
+/* a partir daq a organização somente das paginas */
+#holocausto h2,
+#holocausto p,
+#arte h2,
+#arte p{
+    color:rgba(44, 62, 80, 1) ;
+}
+#arte p,
+#holocausto p{
+    font-size: clamp(0.5rem,2vw,1.5rem);
+}
+.orgn_1{
+    ;
+}
+.orgn_1 h2{
+    background-color:rgba(237, 230, 209, 1) ;
+    box-shadow: -1em 0.4em  rgba(196, 154, 108, 1);
+}
+.orgn_1 .texto{
+    background-color: rgba(237, 230, 209, 1);
+}
+.orgn_2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: center;
+    justify-items: center;
+}
+.dividido_2{
+    background-color: rgba(237, 230, 209, 1);
+    width: 45%;
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+    padding: 1% ;
 }
