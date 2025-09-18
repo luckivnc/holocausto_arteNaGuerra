@@ -23,6 +23,7 @@
 img{
     width: 100%;
     height: auto;
+    margin: none;
 }
 body{
     background-color: rgba(44, 62, 80, 1) ;
@@ -148,7 +149,6 @@ h4{
 }
 
 .orgn_1{
-
     width: 85%;
     display: flex;
     flex-direction: column;
@@ -156,8 +156,14 @@ h4{
     margin-bottom: 2%;
 }
 
-.orgn_1 h2{
+.titulo1 h2{
     width: 20%;
+    background-color:rgba(237, 230, 209, 1) ;
+    box-shadow: -0.4em 0.4em  rgba(196, 154, 108, 1);
+    padding: 1%;
+}
+.titulo2 h2{
+    width: 50%;
     background-color:rgba(237, 230, 209, 1) ;
     box-shadow: -0.4em 0.4em  rgba(196, 154, 108, 1);
     padding: 1%;
@@ -167,7 +173,7 @@ h4{
     padding: 1%;
 }
 .orgn_2{
-    width: 85%;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -182,6 +188,36 @@ h4{
     padding-right: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+.orgn_3 h2{
+    width: 20%;
+    background-color:rgba(237, 230, 209, 1) ;
+    box-shadow: -0.4em 0.4em  rgba(196, 154, 108, 1);
+    padding: 1%;
+}
+.sep{
+    display: flex;        /* faz os elementos ficarem lado a lado */
+    background-color: rgba(196, 154, 108, 1);
+    box-shadow: -1em 1em 0em 0em  rgba(196, 154, 108, 1);
+}
+.dividido1_3_txth{
+    width: 34%;
+    background-color: rgba(237, 230, 209, 1);
+    
+}
+.dividido1_3_txt{
+    width: 33%;
+    background-color: rgba(237, 230, 209, 1);
+    
+}
+.dividido1_3_txth h2,
+.dividido1_3_txth p{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+.dividido2_3_img{
+    width: 66%;
 }
 .carrossel{
     display: flex;
